@@ -2,7 +2,7 @@ Feature: As a user, I should be able to create events by clicking on Event tab u
   User Story: CRMLYEUG-1481
   User types: Human Resource, Helpdesk, Marketing
 
-
+@smoke
   Scenario Outline: User should be able to add Event start and ending date and time, select "All day" and specify the time zone.
     Given the user logs in as a "<userType>"
     When user clicks on Event button
