@@ -4,7 +4,7 @@ Feature: Adding certain features to messages
 
   User Types: Human Resource, Helpdesk, Marketing
 
-  # @smoke
+  @smoke
   Scenario Outline: Add mentions about department employees
     Given the user logs in as a "<userType>"
     And the user clicks Message functionality and writes a message
