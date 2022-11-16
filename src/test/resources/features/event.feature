@@ -66,7 +66,7 @@ Feature: As a user, I should be able to create events by clicking on Event tab u
       | Helpdesk       |
       | Marketing      |
 
-  @smoke
+  # @smoke
   Scenario Outline: User should be able to send event by filling the mandatory fields.
     Given the user logs in as a "<userType>"
     When user clicks on Event button
