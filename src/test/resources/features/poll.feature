@@ -3,7 +3,7 @@ Feature: I should be able to create a poll by clicking on Poll tab under Active 
   User Story:US07_As a user, I should be able to create a poll by clicking on Poll tab under Active Stream.
 
   #--------------------------------A.C->1---------------------------------------
-  # @smoke
+  @smoke
   Scenario Outline: User should be able to add users by selecting multiple contacts from Employees and Department's contact lists.
     Given user logs in as "<userType>"
     When user adds users by selecting contacts
