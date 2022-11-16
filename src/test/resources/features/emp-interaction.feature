@@ -8,7 +8,7 @@ Feature: CRM24 employee interaction feature
 
 
        #CRMLYEUG-1278
-
+@smoke
   Scenario Outline: Verify user should be able to make a comment to other employees' posts.
     Given the user logs in as a "<userType>"
     When user write a "This is a test comment" to post
