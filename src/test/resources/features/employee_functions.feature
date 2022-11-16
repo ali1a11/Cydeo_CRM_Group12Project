@@ -1,5 +1,5 @@
 @CRMLYEUG-1476
-Feature:
+Feature: User should be able to use functions on Company Structure under Employee menu.
 
   User story: As a user, I should be able to use functions on Company Structure under Employee menu.
 
