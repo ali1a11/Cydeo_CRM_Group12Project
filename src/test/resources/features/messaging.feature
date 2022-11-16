@@ -58,7 +58,6 @@ Feature: Adding certain features to messages
 
 
 
-  @smoke
   Scenario Outline: Removing a link from the the message before sending
     Given the user logs in as a "<userType>"
     And the user clicks Message functionality
@@ -72,7 +71,6 @@ Feature: Adding certain features to messages
       | Helpdesk       |
       | Marketing      |
 
-  @smoke
   Scenario Outline: Adding quotes to the message
     Given the user logs in as a "<userType>"
     And the user clicks Message functionality
@@ -85,8 +83,8 @@ Feature: Adding certain features to messages
       | Helpdesk       |
       | Marketing      |
 
-  @smoke
-  Scenario Outline: Adding tags to  the message
+
+Scenario Outline: Adding tags to  the message
     Given the user logs in as a "<userType>"
     And the user clicks Message functionality
     And the user clicks "Add tag" button
@@ -99,7 +97,7 @@ Feature: Adding certain features to messages
       | Marketing      |
 
 
-  @smoke
+
   Scenario Outline: Removing tags from  the message
     Given the user logs in as a "<userType>"
     And the user clicks Message functionality
